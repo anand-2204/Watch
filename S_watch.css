@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: 'lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+   display: grid;
+   margin: auto;
+   padding: 0;
+}
+.container{
+    
+    
+    width: 450px;
+    border: 2px solid white;
+    padding: 22px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.num{
+    display: flex;
+    color: white;
+
+}
+button{
+    width: 120px;
+    height: 35px;
+    background-color: red;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    outline: none;
+    border-radius: 2px;
+    margin-inline: 8px;
+}
+button:hover{
+    border: 2px solid white;
+}
+h2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-inline: 6px;
+}
